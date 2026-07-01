@@ -1,0 +1,10 @@
+# Install the correct PyTorch build for your CUDA version first.
+
+numpy
+opencv-python
+pyyaml
+omegaconf
+hydra-core
+nerfstudio
+viser
+pytest

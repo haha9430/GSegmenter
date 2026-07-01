@@ -1,0 +1,51 @@
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+nerfstudio_env/
+sam2_env/
+gsegmenter/training/nerfstudio_env/
+
+# Local data, generated outputs, and temporary demos
+data/
+outputs/
+exports/
+tmp_mask_demo/
+tmp_lifting_demo/
+
+# Model checkpoints and learned weights
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Large 3D and numeric artifacts
+*.ply
+*.npz
+*.npy
+
+# External binaries or vendored repositories
+colmap-x64-windows-cuda/
+external/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Logs
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

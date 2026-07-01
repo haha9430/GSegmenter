@@ -1,0 +1,21 @@
+# NerfStudio-first defaults for the first project scaffold.
+
+defaults:
+  - dataset: colmap
+  - training: splatfacto
+  - mapping: default
+  - editor: default
+  - _self_
+
+project:
+  name: gsegmenter
+  seed: 42
+
+paths:
+  data_root: data
+  output_root: outputs
+  cache_root: cache
+
+runtime:
+  device: cuda
+  debug: false

@@ -1,0 +1,5 @@
+data_root: data
+scene_name: scene01
+images_dir: data/scene01/images
+colmap_dir: data/scene01/colmap
+use_sparse_colmap: true

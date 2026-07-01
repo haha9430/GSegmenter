@@ -1,0 +1,4 @@
+vote_threshold: 0.6
+min_visible_views: 2
+max_inlier_distance_px: 2.0
+use_deterministic_voting: true

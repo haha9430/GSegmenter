@@ -1,0 +1,6 @@
+method: splatfacto
+num_iterations: 30000
+seed: 42
+eval_interval: 500
+save_interval: 1000
+mixed_precision: false
